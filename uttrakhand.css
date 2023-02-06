@@ -489,3 +489,103 @@ hr {
         ;
     }
 }
+/*=------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#reviews {
+  min-height: 100vh;
+  padding: 40px 0;
+  font-family: Montserrat;
+}
+#reviews #tag{
+  background: rgba(255, 230, 0, 0.185);
+  color: rgba(255, 68, 0, 0.774);
+  width: 270px;
+  text-align: center;
+  padding: 15px 12px;
+  border-radius: 10px;
+  font-weight: 500;
+  margin:  0 auto;
+}
+#reviews #title{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+}
+#reviews #container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 60px;
+}
+#reviews #container .card{
+  width: 250px;
+  height: auto;
+  padding: 45px;
+  text-align: center;
+  border:5px solid rgba(204, 204, 204, 0.267);
+  border-radius: 10px;
+  margin: 10px auto;
+  flex-shrink: 0;
+}
+#reviews #container .card p{
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+#reviews #container .card .stars-container{
+  margin-bottom: 40px;
+}
+#reviews #container .card .stars-container i{
+  color: rgb(81, 255, 0);
+  padding: 2px;
+}
+#reviews #container .card hr{
+  margin-top: 35px;
+  border: none;
+  border-top: 2px solid rgba(204, 204, 204, 0.815);
+}
+#reviews #container .card .personName{
+  margin-top: 30px;
+  margin-bottom: 17px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#reviews #container .card .personType{
+  margin-top: 40px;
+}
+#reviews #container #special-card{
+  width: 260px;
+  height: 480px;
+  padding: 45px;
+  text-align: center;
+  border:5px solid rgba(255, 230, 0, 0.185);
+  border-radius: 10px;
+  margin: 10px auto;
+  flex-shrink: 0;
+}
+#reviews #container #special-card i.fa-thumbs-up{
+  font-size: 100px;
+  opacity: 0.8;
+}
+#reviews #container #special-card h1{
+  font-size: 70px;
+  color: rgb(255, 94, 0);
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#reviews #container #special-card .stars-container{
+  margin-top: 40px;
+}
+#reviews #container #special-card .stars-container i{
+  color: rgb(81, 255, 0);
+  padding: 2px;
+}
+#reviews #container #special-card h4{
+  margin-top: 40px;
+}
