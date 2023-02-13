@@ -147,7 +147,7 @@ hr {
 }
 
 
-.feature-img img {
+.feature-img5 img {
     width: 51rem;
     margin: -150px;
     padding: 0;
@@ -589,3 +589,117 @@ hr {
 #reviews #container #special-card h4{
   margin-top: 40px;
 }
+/*---------------------------------------------------------------------------------------------------------*/
+/* 2nd page css */
+.aboutus2 img{
+    padding: 25px;
+    padding-right: 10px;
+    width: 100%;
+    border-radius: 40px;
+}
+.middlecontent p{
+    padding: 120px;
+    padding-top: 50px;
+    line-height: 35px;
+    color: #353434;
+    padding-bottom: 50px;
+    
+}
+.list{
+    padding-top: 0px;
+    margin-top: 0;
+}
+.list li{
+    padding-left: 180px;
+    line-height: 50px;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    list-style: decimal;
+    
+}
+.lowermiddlesec{
+    padding-left: 60px;
+    margin-top: 80px;
+}
+.lowermiddlesec h1{
+    margin-bottom: 20px;
+}
+.lowermiddlesec p{
+   padding: 12px;
+}
+.scroll-on {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 1s ease-out;
+  }
+  
+  .scroll-on.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .feature-img img{
+    width: 570px ;
+    margin: 0;
+    border: 5px solid #fd9d2a;
+    transition:  0.7s;
+  }
+  .feature-img img:hover{
+    transform: scale(1.05);
+  }
+  .big-feature-section{
+    
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .feature-desc{
+    text-align: left;
+  }
+  #second-big-feature1 {
+    flex-direction: row-reverse;
+}
+.feature-desc {
+    flex-direction: column;
+    align-items: flex-start;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    .big-feature-container, #second-big-feature1 {
+        flex-direction: column;
+    }
+    .feature-img img{
+        width: 100%;
+    }
+    .aboutus2 img {
+        padding: 15px;
+    }
+    .middlecontent p {
+        padding: 25px;
+    }
+    .list li {
+        padding-left: 10px;
+    }
+    .lowermiddlesec {
+        padding-left: 23px;
+        gap: 20px;
+    }
+    .middlecontent p {
+        padding: 13px;
+    }
+    .big-feature-container {
+        row-gap: 32px;
+        
+    }
+    .lastp{
+        margin-bottom: 20px;
+    }
+    .cta-section {
+        padding: 5px var(--padding-inline-section) 10px;
+        background-color: #202020;
+        gap: 30px;
+        
+        position: relative;
+    }
+}
+    
+
