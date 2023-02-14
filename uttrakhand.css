@@ -427,8 +427,8 @@ hr {
     .company-logo img{
         width: 150px;
     }
-    .feature-img img{
-        width: 00;
+    .feature-img5 img{
+        width: 0px !important;
     }
     .feature-img1{
         padding: 0;
